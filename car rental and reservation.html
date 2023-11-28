@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Car Rental Reservation</title>
+    <link href="styles.css" rel="stylesheet">
+    <script>
+        var b = "Your Reservation is Successful! We will contact You Shortly";
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="http://127.0.0.1:5500/project%20cse.html/logo.jpg" alt="Car Rental Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Facilities">Facilities</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Review">Review</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to Car Rental</h1>
+            <p>Your journey starts here. Explore our wide range of vehicles and make your reservation today.</p>
+            <button class="reservationbutton" type="reservation"><a href="#reservation">Reserve Now</a></button>
+        </div>
+    </section>
+
+    <section id="Facilities">
+        <div class="container">
+            <h2>Our Facilities</h2>
+            <div class="car">
+              <a href="About Compact Car.html"> <img src="http://127.0.0.1:5500/project%20cse.html/compact%20car%2044.jpg" alt="Compact Car"></a>
+                <h3>Compact Car</h3>
+                <p>Perfect for city trips and small groups. Features include great fuel efficiency and easy maneuverability.</p>
+            </div>
+            <div class="car">
+                <a href="About Sydan Car.html"><img src="http://127.0.0.1:5500/project%20cse.html/pexels-mike-244206.jpg" alt="Sedan"></a>
+                <h3>Sedan</h3>
+                <p>Elegant and spacious for your comfort. Ideal for business trips and family outings.</p>
+            </div>
+            <div class="car">
+                <a href="About Suv Car.html"><img src="http://127.0.0.1:5500/project%20cse.html/suv%20car44.jpg" alt="suv"></a>
+                <h3>SUV</h3>
+                <p>Adventure-ready for family trips and outdoor enthusiasts. Offers ample space and rugged performance.</p>
+            </div>
+            <div class="car">
+                <a href="About Convertible Car.html"><img src="http://127.0.0.1:5500/project%20cse.html/conivirtible.png" alt="Convertible"></a>
+                <h3>Convertible</h3>
+                <p>Experience the thrill of the open road with our stylish convertibles. Perfect for special occasions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>24/7 Customer Support</li>
+                <li>Flexible Pickup and Drop-off Locations</li>
+                <li>Clean and Well-Maintained Vehicles</li>
+                <li>Competitive Pricing</li>
+                <li>Optional GPS and Child Seat Rentals</li>
+                <li>Special Discounts for Frequent Customers</li>
+                <li>Long-term Rental Options</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Review">
+        <div class="container">
+            <h2>Reviews</h2>
+            <div class="Review">
+                <p>"I had an amazing experience with Car Rental. The car was clean and comfortable, and the staff was friendly."</p>
+                <p class="author">- XYZ</p>
+            </div>
+            <div class="Review">
+                <p>"I highly recommend Car Rental. They made my trip convenient and affordable. Will definitely use their service again!"</p>
+                <p class="author">- XYZ</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <h2>FAQs</h2>
+            <div class="faq-item">
+                <h3>Q: How do I make a reservation?</h3>
+             <p>A: You can easily make a reservation by filling out our online reservation form. You can also call our customer support for assistance.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: What types of payment do you accept?</h3>
+                <p>A: We accept major credit cards, cash payments, and online payment methods for your convenience.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q: Do you offer discounts for long-term rentals?</h3>
+                <p>A: Yes, we provide special discounts and flexible pricing options for long-term rentals. Contact us for more details.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a premier car rental service committed to providing you with top-notch vehicles and excellent customer service. With years of experience, we offer a hassle-free and comfortable travel experience.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <address>
+                <p>Email: <a href="mailto:xyz@gmail.com.com">xyz@gmail.com</a></p>
+                <p>Phone: <a href="tel:8210XXXX90">+918210XXXX90</a></p>
+                <p>Address: XYZ</p>
+            </address>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email">
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"  placeholder="Enter phone no.">
+
+                <label for="pickup-date">Pickup Date:</label>
+                <input type="date" id="pickup-date" name="pickup-date" >
+
+                <label for="dropoff-date">Drop-off Date:</label>
+                <input type="date" id="dropoff-date" name="dropoff-date" >
+
+                <button class="cta-button" type="submit" onclick="alert('Your Reservation is Successful! We will contact You Shortly')">Submit Reservation</button>
+            </form>
+            <div id="reservation-success" style="display: none;">
+                Your reservation is successful! We will contact you shortly.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Car Rental. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
